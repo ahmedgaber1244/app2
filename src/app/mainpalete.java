@@ -49,6 +49,49 @@ public class mainpalete extends javax.swing.JFrame {
         jPasswordField1 = new javax.swing.JPasswordField();
         jLabel3 = new javax.swing.JLabel();
         addcustomer = new javax.swing.JPanel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jPanel2 = new javax.swing.JPanel();
+        jTextField2 = new javax.swing.JTextField();
+        jTextField3 = new javax.swing.JTextField();
+        jTextField4 = new javax.swing.JTextField();
+        jTextField5 = new javax.swing.JTextField();
+        jTextField6 = new javax.swing.JTextField();
+        jTextField7 = new javax.swing.JTextField();
+        jTextField8 = new javax.swing.JTextField();
+        jTextField9 = new javax.swing.JTextField();
+        jTextField10 = new javax.swing.JTextField();
+        jTextField11 = new javax.swing.JTextField();
+        jTextField12 = new javax.swing.JTextField();
+        jTextField13 = new javax.swing.JTextField();
+        jTextField15 = new javax.swing.JTextField();
+        jTextField16 = new javax.swing.JTextField();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        jComboBox2 = new javax.swing.JComboBox<>();
+        jComboBox3 = new javax.swing.JComboBox<>();
+        jLabel11 = new javax.swing.JLabel();
+        custsearchpan = new javax.swing.JPanel();
+        jTextField14 = new javax.swing.JTextField();
+        jTextField17 = new javax.swing.JTextField();
+        jTextField18 = new javax.swing.JTextField();
+        jTextField19 = new javax.swing.JTextField();
+        jTextField20 = new javax.swing.JTextField();
+        jTextField21 = new javax.swing.JTextField();
+        jTextField22 = new javax.swing.JTextField();
+        jTextField23 = new javax.swing.JTextField();
+        jTextField24 = new javax.swing.JTextField();
+        jTextField25 = new javax.swing.JTextField();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        adminpann = new javax.swing.JPanel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        missedcalls = new javax.swing.JPanel();
+        jLabel21 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setAlwaysOnTop(true);
@@ -162,7 +205,398 @@ public class mainpalete extends javax.swing.JFrame {
 
         addcustomer.setBackground(new java.awt.Color(255, 255, 255));
         addcustomer.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jScrollPane1.setOpaque(false);
+
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextField2.setFont(new java.awt.Font("Cordia New", 1, 24)); // NOI18N
+        jTextField2.setForeground(java.awt.Color.lightGray);
+        jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField2.setText("firstname");
+        jTextField2.setBorder(null);
+        jTextField2.setOpaque(false);
+        jTextField2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTextField2MouseClicked(evt);
+            }
+        });
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField2ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 82, 290, -1));
+
+        jTextField3.setFont(new java.awt.Font("Cordia New", 1, 24)); // NOI18N
+        jTextField3.setForeground(java.awt.Color.lightGray);
+        jTextField3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField3.setText("lastname");
+        jTextField3.setBorder(null);
+        jTextField3.setOpaque(false);
+        jTextField3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTextField3MouseClicked(evt);
+            }
+        });
+        jTextField3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField3ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 124, 290, -1));
+
+        jTextField4.setFont(new java.awt.Font("Cordia New", 1, 24)); // NOI18N
+        jTextField4.setForeground(java.awt.Color.lightGray);
+        jTextField4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField4.setText("mothername");
+        jTextField4.setBorder(null);
+        jTextField4.setOpaque(false);
+        jTextField4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTextField4MouseClicked(evt);
+            }
+        });
+        jPanel2.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 167, 290, -1));
+
+        jTextField5.setFont(new java.awt.Font("Cordia New", 1, 24)); // NOI18N
+        jTextField5.setForeground(java.awt.Color.lightGray);
+        jTextField5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField5.setText("occupation");
+        jTextField5.setBorder(null);
+        jTextField5.setOpaque(false);
+        jTextField5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTextField5MouseClicked(evt);
+            }
+        });
+        jTextField5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField5ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, 290, -1));
+
+        jTextField6.setFont(new java.awt.Font("Cordia New", 1, 24)); // NOI18N
+        jTextField6.setForeground(java.awt.Color.lightGray);
+        jTextField6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField6.setText("social state");
+        jTextField6.setBorder(null);
+        jTextField6.setOpaque(false);
+        jTextField6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTextField6MouseClicked(evt);
+            }
+        });
+        jPanel2.add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 252, 290, -1));
+
+        jTextField7.setFont(new java.awt.Font("Cordia New", 1, 24)); // NOI18N
+        jTextField7.setForeground(java.awt.Color.lightGray);
+        jTextField7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField7.setText("office phone");
+        jTextField7.setToolTipText("");
+        jTextField7.setBorder(null);
+        jTextField7.setOpaque(false);
+        jTextField7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTextField7MouseClicked(evt);
+            }
+        });
+        jTextField7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField7ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 297, 290, -1));
+
+        jTextField8.setFont(new java.awt.Font("Cordia New", 1, 24)); // NOI18N
+        jTextField8.setForeground(java.awt.Color.lightGray);
+        jTextField8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField8.setText("personal phone");
+        jTextField8.setBorder(null);
+        jTextField8.setOpaque(false);
+        jTextField8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTextField8MouseClicked(evt);
+            }
+        });
+        jPanel2.add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 339, 290, -1));
+
+        jTextField9.setFont(new java.awt.Font("Cordia New", 1, 24)); // NOI18N
+        jTextField9.setForeground(java.awt.Color.lightGray);
+        jTextField9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField9.setText("home phone");
+        jTextField9.setBorder(null);
+        jTextField9.setOpaque(false);
+        jTextField9.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTextField9MouseClicked(evt);
+            }
+        });
+        jTextField9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField9ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jTextField9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 385, 290, -1));
+
+        jTextField10.setFont(new java.awt.Font("Cordia New", 1, 24)); // NOI18N
+        jTextField10.setForeground(java.awt.Color.lightGray);
+        jTextField10.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField10.setText("note");
+        jTextField10.setBorder(null);
+        jTextField10.setOpaque(false);
+        jTextField10.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTextField10MouseClicked(evt);
+            }
+        });
+        jPanel2.add(jTextField10, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 385, 300, -1));
+
+        jTextField11.setFont(new java.awt.Font("Cordia New", 1, 24)); // NOI18N
+        jTextField11.setForeground(java.awt.Color.lightGray);
+        jTextField11.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField11.setText("where did he/she go before ");
+        jTextField11.setBorder(null);
+        jTextField11.setOpaque(false);
+        jTextField11.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTextField11MouseClicked(evt);
+            }
+        });
+        jPanel2.add(jTextField11, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 342, 280, 23));
+
+        jTextField12.setFont(new java.awt.Font("Cordia New", 1, 24)); // NOI18N
+        jTextField12.setForeground(java.awt.Color.lightGray);
+        jTextField12.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField12.setText("guest occupation");
+        jTextField12.setBorder(null);
+        jTextField12.setOpaque(false);
+        jTextField12.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTextField12MouseClicked(evt);
+            }
+        });
+        jPanel2.add(jTextField12, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 210, 280, -1));
+
+        jTextField13.setFont(new java.awt.Font("Cordia New", 1, 24)); // NOI18N
+        jTextField13.setForeground(java.awt.Color.lightGray);
+        jTextField13.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField13.setText("guest address");
+        jTextField13.setBorder(null);
+        jTextField13.setOpaque(false);
+        jTextField13.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTextField13MouseClicked(evt);
+            }
+        });
+        jPanel2.add(jTextField13, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 167, 280, -1));
+
+        jTextField15.setFont(new java.awt.Font("Cordia New", 1, 24)); // NOI18N
+        jTextField15.setForeground(java.awt.Color.lightGray);
+        jTextField15.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField15.setText("guest mothername");
+        jTextField15.setBorder(null);
+        jTextField15.setOpaque(false);
+        jTextField15.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTextField15MouseClicked(evt);
+            }
+        });
+        jPanel2.add(jTextField15, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 124, 290, -1));
+
+        jTextField16.setFont(new java.awt.Font("Cordia New", 1, 24)); // NOI18N
+        jTextField16.setForeground(java.awt.Color.lightGray);
+        jTextField16.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField16.setText("guestname");
+        jTextField16.setBorder(null);
+        jTextField16.setOpaque(false);
+        jTextField16.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jTextField16MouseClicked(evt);
+            }
+        });
+        jPanel2.add(jTextField16, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 82, 280, -1));
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.setBorder(null);
+        jComboBox1.setOpaque(false);
+        jPanel2.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(375, 255, -1, 20));
+
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox2.setBorder(null);
+        jComboBox2.setOpaque(false);
+        jPanel2.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(465, 255, -1, -1));
+
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox3.setBorder(null);
+        jComboBox3.setOpaque(false);
+        jPanel2.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 255, -1, -1));
+
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/app/Capture5.png"))); // NOI18N
+        jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -3, 730, 440));
+
+        jScrollPane1.setViewportView(jPanel2);
+
+        addcustomer.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 750, 380));
+
         parnetpanel.add(addcustomer, "card3");
+
+        custsearchpan.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextField14.setFont(new java.awt.Font("Cordia New", 1, 18)); // NOI18N
+        jTextField14.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField14.setBorder(null);
+        jTextField14.setOpaque(false);
+        jTextField14.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jTextField14KeyPressed(evt);
+            }
+        });
+        custsearchpan.add(jTextField14, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 41, 240, 20));
+
+        jTextField17.setFont(new java.awt.Font("Cordia New", 1, 18)); // NOI18N
+        jTextField17.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField17.setBorder(null);
+        jTextField17.setOpaque(false);
+        jTextField17.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jTextField17KeyPressed(evt);
+            }
+        });
+        custsearchpan.add(jTextField17, new org.netbeans.lib.awtextra.AbsoluteConstraints(474, 41, 220, 20));
+
+        jTextField18.setFont(new java.awt.Font("Cordia New", 1, 18)); // NOI18N
+        jTextField18.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField18.setBorder(null);
+        jTextField18.setOpaque(false);
+        jTextField18.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jTextField18KeyPressed(evt);
+            }
+        });
+        custsearchpan.add(jTextField18, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 163, 230, 20));
+
+        jTextField19.setFont(new java.awt.Font("Cordia New", 1, 18)); // NOI18N
+        jTextField19.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField19.setBorder(null);
+        jTextField19.setOpaque(false);
+        custsearchpan.add(jTextField19, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 190, 230, 20));
+
+        jTextField20.setFont(new java.awt.Font("Cordia New", 1, 18)); // NOI18N
+        jTextField20.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField20.setBorder(null);
+        jTextField20.setOpaque(false);
+        custsearchpan.add(jTextField20, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 215, 210, 20));
+
+        jTextField21.setFont(new java.awt.Font("Cordia New", 1, 18)); // NOI18N
+        jTextField21.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField21.setBorder(null);
+        jTextField21.setOpaque(false);
+        custsearchpan.add(jTextField21, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 243, 230, 20));
+
+        jTextField22.setFont(new java.awt.Font("Cordia New", 1, 18)); // NOI18N
+        jTextField22.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField22.setBorder(null);
+        jTextField22.setOpaque(false);
+        custsearchpan.add(jTextField22, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 268, 230, 20));
+
+        jTextField23.setFont(new java.awt.Font("Cordia New", 1, 18)); // NOI18N
+        jTextField23.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField23.setBorder(null);
+        jTextField23.setOpaque(false);
+        custsearchpan.add(jTextField23, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 295, 230, 20));
+
+        jTextField24.setFont(new java.awt.Font("Cordia New", 1, 18)); // NOI18N
+        jTextField24.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField24.setBorder(null);
+        jTextField24.setOpaque(false);
+        custsearchpan.add(jTextField24, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 321, 190, 20));
+
+        jTextField25.setFont(new java.awt.Font("Cordia New", 1, 18)); // NOI18N
+        jTextField25.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField25.setBorder(null);
+        jTextField25.setOpaque(false);
+        custsearchpan.add(jTextField25, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 347, 220, 20));
+
+        jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/app/Untitled-16.png"))); // NOI18N
+        jLabel13.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        custsearchpan.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 310, 210, 50));
+
+        jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/app/pannel3_2.png"))); // NOI18N
+        jLabel12.setCursor(new java.awt.Cursor(java.awt.Cursor.NW_RESIZE_CURSOR));
+        custsearchpan.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 120, -1, 140));
+
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/app/pannel3_1.png"))); // NOI18N
+        custsearchpan.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 750, 380));
+
+        parnetpanel.add(custsearchpan, "card4");
+
+        adminpann.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/app/Untitled-13.png"))); // NOI18N
+        jLabel15.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel15.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel15MouseClicked(evt);
+            }
+        });
+        adminpann.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 40, 210, 50));
+
+        jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/app/Untitled-11.png"))); // NOI18N
+        jLabel16.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel16.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel16MouseClicked(evt);
+            }
+        });
+        adminpann.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 210, 50));
+
+        jLabel17.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/app/Untitled-14.png"))); // NOI18N
+        jLabel17.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel17.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel17MouseClicked(evt);
+            }
+        });
+        adminpann.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 95, 210, 50));
+
+        jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/app/Untitled-12.png"))); // NOI18N
+        jLabel18.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel18.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel18MouseClicked(evt);
+            }
+        });
+        adminpann.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 95, 210, 50));
+
+        jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/app/Untitled-15.png"))); // NOI18N
+        jLabel19.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel19.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel19MouseClicked(evt);
+            }
+        });
+        adminpann.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 3, 210, 50));
+
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/app/panel3_1.png"))); // NOI18N
+        adminpann.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 750, 380));
+
+        parnetpanel.add(adminpann, "card5");
+
+        missedcalls.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/app/pannel5.png"))); // NOI18N
+        missedcalls.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 750, 380));
+
+        parnetpanel.add(missedcalls, "card6");
 
         jPanel1.add(parnetpanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 750, 380));
 
@@ -191,14 +625,26 @@ public class mainpalete extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel2MouseClicked
 
     private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
-        // TODO add your handling code here:
+parnetpanel.removeAll();
+       parnetpanel.add(custsearchpan);
+       parnetpanel.repaint();
+       parnetpanel.revalidate();
+            // TODO add your handling code here:
     }//GEN-LAST:event_jLabel5MouseClicked
 
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
+parnetpanel.removeAll();
+       parnetpanel.add(adminpann);
+       parnetpanel.repaint();
+       parnetpanel.revalidate();
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel1MouseClicked
 
     private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
+parnetpanel.removeAll();
+       parnetpanel.add(missedcalls);
+       parnetpanel.repaint();
+       parnetpanel.revalidate();
         // TODO add your handling code here:
     }//GEN-LAST:event_jLabel6MouseClicked
 
@@ -213,6 +659,126 @@ public class mainpalete extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
 
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField2ActionPerformed
+
+    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+    }//GEN-LAST:event_jTextField3ActionPerformed
+
+    private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField5ActionPerformed
+
+    private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField7ActionPerformed
+
+    private void jTextField9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField9ActionPerformed
+
+    private void jTextField2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField2MouseClicked
+        jTextField2.setText(null);
+    }//GEN-LAST:event_jTextField2MouseClicked
+
+    private void jTextField3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField3MouseClicked
+   jTextField3.setText(null);
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField3MouseClicked
+
+    private void jTextField4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField4MouseClicked
+jTextField4.setText(null);
+           // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField4MouseClicked
+
+    private void jTextField5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField5MouseClicked
+jTextField5.setText(null);
+           // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField5MouseClicked
+
+    private void jTextField6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField6MouseClicked
+jTextField6.setText(null);
+           // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField6MouseClicked
+
+    private void jTextField7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField7MouseClicked
+jTextField7.setText(null);
+           // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField7MouseClicked
+
+    private void jTextField8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField8MouseClicked
+       jTextField8.setText(null);
+    // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField8MouseClicked
+
+    private void jTextField16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField16MouseClicked
+jTextField16.setText(null);
+           // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField16MouseClicked
+
+    private void jTextField15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField15MouseClicked
+jTextField15.setText(null);
+           // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField15MouseClicked
+
+    private void jTextField13MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField13MouseClicked
+jTextField13.setText(null);
+           // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField13MouseClicked
+
+    private void jTextField12MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField12MouseClicked
+jTextField12.setText(null);
+           // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField12MouseClicked
+
+    private void jTextField11MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField11MouseClicked
+jTextField11.setText(null);
+           // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField11MouseClicked
+
+    private void jTextField9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField9MouseClicked
+jTextField9.setText(null);
+           // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField9MouseClicked
+
+    private void jTextField10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTextField10MouseClicked
+jTextField10.setText(null);
+           // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField10MouseClicked
+
+    private void jLabel16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel16MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jLabel16MouseClicked
+
+    private void jLabel17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel17MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jLabel17MouseClicked
+
+    private void jLabel18MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel18MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jLabel18MouseClicked
+
+    private void jLabel15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel15MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jLabel15MouseClicked
+
+    private void jLabel19MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel19MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jLabel19MouseClicked
+/*text fields events*/
+    private void jTextField17KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField17KeyPressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField17KeyPressed
+
+    private void jTextField14KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField14KeyPressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField14KeyPressed
+
+    private void jTextField18KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField18KeyPressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField18KeyPressed
+/*text fields events*/
     /**
      * @param args the command line arguments
      */
@@ -244,8 +810,7 @@ public class mainpalete extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new mainpalete().setVisible(true);
-               loginframe login = new loginframe();
-               login.setVisible(true);
+               
                 
 
             }
@@ -254,8 +819,24 @@ public class mainpalete extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel addcustomer;
+    private javax.swing.JPanel adminpann;
+    private javax.swing.JPanel custsearchpan;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -264,9 +845,36 @@ public class mainpalete extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JPasswordField jPasswordField1;
+    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField10;
+    private javax.swing.JTextField jTextField11;
+    private javax.swing.JTextField jTextField12;
+    private javax.swing.JTextField jTextField13;
+    private javax.swing.JTextField jTextField14;
+    private javax.swing.JTextField jTextField15;
+    private javax.swing.JTextField jTextField16;
+    private javax.swing.JTextField jTextField17;
+    private javax.swing.JTextField jTextField18;
+    private javax.swing.JTextField jTextField19;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField20;
+    private javax.swing.JTextField jTextField21;
+    private javax.swing.JTextField jTextField22;
+    private javax.swing.JTextField jTextField23;
+    private javax.swing.JTextField jTextField24;
+    private javax.swing.JTextField jTextField25;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField jTextField6;
+    private javax.swing.JTextField jTextField7;
+    private javax.swing.JTextField jTextField8;
+    private javax.swing.JTextField jTextField9;
     private javax.swing.JPanel loginpan;
+    private javax.swing.JPanel missedcalls;
     private javax.swing.JPanel parnetpanel;
     // End of variables declaration//GEN-END:variables
 }
